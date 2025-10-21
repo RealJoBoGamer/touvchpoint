@@ -8,6 +8,7 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   build: {
-    outDir: 'build', // 👈 this makes the output folder match what the deploy action expects
+    outDir: 'build', // your deploy folder
   },
+  base: '/touvchpoint/', // 👈 IMPORTANT: replace with your repo name
 })
